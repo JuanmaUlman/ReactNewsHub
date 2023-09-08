@@ -6,6 +6,7 @@ dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/ReactNewsHub/",
 
   define: {
     "import.meta.env.VITE_REACT_APP_API_KEY": JSON.stringify(
