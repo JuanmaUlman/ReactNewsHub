@@ -1,0 +1,77 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.iphone11 {
+width: 320px;
+max-height: 600px;
+border-radius: 25px;
+border-width: 9px 4px 9px 4px;
+border-style: solid;
+border-color: black;
+overflow:hidden;
+}
+
+.screen {
+  padding: 0px 0px !important;
+  width: 100%;
+  max-height: 600px;
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+  margin: 0px 0;
+  border: 1px solid black;
+  word-wrap: break-word; 
+  padding-right: 5px;
+  background-attachment: fixed;
+  background-size: 50%;
+  }
+
+.screen::-webkit-scrollbar {
+width: 8px; 
+background-color: #f5f5f5;
+}
+
+.screen::-webkit-scrollbar-thumb {
+background-color: #888; 
+border-radius: 4px; 
+}
+
+.screen::-webkit-scrollbar-thumb:hover {
+background-color: #555; 
+}
+
+.screen::-webkit-scrollbar-track {
+background-color: #f5f5f5; 
+}
+
+
+.screen-container{
+  margin-inline: 10px;
+  padding-inline: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.image-container{
+width: 100%;
+border: none;
+height: 200px;
+}
+
+.image-container img{
+height: 100%;
+border-radius: 0px 0px 20px 20px;
+width: 100%;
+object-fit: cover; 
+background-attachment: fixed;
+}
+
+
+@media (max-width: 375px){
+.iphone11{
+width: 100%; 
+height: auto; 
+border-radius: 0;
+margin-top: 0;
+}}
