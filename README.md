@@ -2,7 +2,7 @@
 
 ## Ulman Juan Manuel
 
-El proyecto React News Component es una solución diseñada para simplificar la gestión de noticias en un blog o sitio web desde la perspectiva del administrador. Está construido utilizando React Quill, una biblioteca de React que proporciona un editor de texto enriquecido (WYSIWYG). Con esta herramienta, puedes cargar noticias junto con su título, una breve descripción, y una imagen de portada, que se convierte en una representación en formato Base64 mediante una función incorporada. Además, puedes marcar una noticia como activa o inactiva; las noticias activas se muestran en el blog, mientras que las inactivas permanecen en la base de datos.
+El proyecto React News Hub es una solución diseñada para simplificar la gestión de noticias en un blog o sitio web desde la perspectiva del administrador. Está construido utilizando React Quill, una biblioteca de React que proporciona un editor de texto enriquecido (WYSIWYG). Con esta herramienta, puedes cargar noticias junto con su título, una breve descripción, y una imagen de portada, que se convierte en una representación en formato Base64 mediante una función incorporada. Además, puedes marcar una noticia como activa o inactiva; las noticias activas se muestran en el blog, mientras que las inactivas permanecen en la base de datos.
 
 El editor ofrece una característica adicional: un botón de vista previa que abre un modal con una vista en tiempo real de cómo se verá el contenido en dispositivos móviles. Esto facilita la visualización y la edición del contenido final.
 
@@ -36,7 +36,3 @@ La App abre en el puerto [ http://localhost:5173/](http://localhost:5173/) del n
 <p>
 <img src="./src/assets/ReactNewsHub.gif" alt="ReactNewsHub">
 </p>
-
-## Link al GitHub Pages
-
-[ReactNewsHub]()
